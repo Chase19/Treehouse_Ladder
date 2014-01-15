@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Full name:</strong>
+  <%= @user.full_name %>
+</p>
+
+<p>
+  <strong>Username link to profile page:</strong>
+  <%= @user.username_link_to_profile_page %>
+</p>
+
+<p>
+  <strong>Profile pic link:</strong>
+  <%= @user.profile_pic_link %>
+</p>
+
+<p>
+  <strong>Num points:</strong>
+  <%= @user.num_points %>
+</p>
+
+<p>
+  <strong>Num badges:</strong>
+  <%= @user.num_badges %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
