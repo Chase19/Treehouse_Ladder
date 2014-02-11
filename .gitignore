@@ -16,3 +16,14 @@
 
 # Ignore the mac .ds_store crappies
 .DS_Store
+*.log
+
+*.log
+
+*.sqlite3
+
+log/development.log
+
+*.log
+
+*.sqlite3
