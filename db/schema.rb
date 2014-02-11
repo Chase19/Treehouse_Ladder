@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140115052853) do
+ActiveRecord::Schema.define(version: 20140211051547) do
 
   create_table "users", force: true do |t|
     t.string   "full_name"
-    t.string   "username_link_to_profile_page"
-    t.string   "profile_pic_link"
-    t.integer  "num_points",                    limit: 255
-    t.integer  "num_badges",                    limit: 255
+    t.string   "username"
+    t.string   "avatar"
+    t.integer  "num_points", limit: 255
+    t.integer  "num_badges", limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
