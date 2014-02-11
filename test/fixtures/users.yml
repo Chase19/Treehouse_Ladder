@@ -2,14 +2,14 @@
 
 one:
   full_name: MyString
-  username_link_to_profile_page: MyString
-  profile_pic_link: MyString
+  username: MyString
+  avatar: MyString
   num_points: MyString
   num_badges: MyString
 
 two:
   full_name: MyString
-  username_link_to_profile_page: MyString
-  profile_pic_link: MyString
+  username: MyString
+  avatar: MyString
   num_points: MyString
   num_badges: MyString

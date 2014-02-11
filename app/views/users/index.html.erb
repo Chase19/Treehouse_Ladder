@@ -4,8 +4,8 @@
   <thead>
     <tr>
       <th>Full name</th>
-      <th>Username link to profile page</th>
-      <th>Profile pic link</th>
+      <th>Username</th>
+      <th>avatar</th>
       <th>Num points</th>
       <th>Num badges</th>
       <th></th>
@@ -18,8 +18,8 @@
     <% @users.each do |user| %>
       <tr>
         <td><%= user.full_name %></td>
-        <td><%= user.username_link_to_profile_page %></td>
-        <td><%= user.profile_pic_link %></td>
+        <td><%= user.username %></td>
+        <td><%= user.avatar %></td>
         <td><%= user.num_points %></td>
         <td><%= user.num_badges %></td>
         <td><%= link_to 'Show', user %></td>
